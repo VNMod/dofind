@@ -24,11 +24,11 @@ This C program finds a file under a directory.
 In ```$ ./dofind searchdir findfile ```, note the following:
 
 - findfile can be a directory
-- The exact location of searchdir is to be outputed as *searchdir/dir<sub>1</sub/dir<sub>2</sub/../dir<sub>n</sub/findfile*
+- The exact location of searchdir is to be outputed as *searchdir/dir<sub>1</sub>/dir<sub>2</sub>/../dir<sub>n</sub>/findfile*
 - If more than one findfiles exist, then the one with the lowest link count should be returned
 - If the permission of searchdir, dir<sub>i</sub>, or findfile don't allow the command to complete, then no output is shown and a subsequent "echo $?" after executing dofind should return *2*.
 - If the findfile exists, a subsequent "echo $?" after executing dofind should return *0*.
-- A searchdir or dir<sub>i</sub> along the search path is defined to be an ambiguous node if it has more than one child directories. If so, no matter whether findfile exists or not, there is no standard output and a subsequent "echo $?" after excecuting dofind returns 3. The program also prints out "ambiguous: search_dir/dir<sub>1</sub/dir<sub>2</sub/dir.../dir<sub>i</sub>" on the standard error output.
+- A searchdir or dir<sub>i</sub> along the search path is defined to be an ambiguous node if it has more than one child directories. If so, no matter whether findfile exists or not, there is no standard output and a subsequent "echo $?" after excecuting dofind returns 3. The program also prints out "ambiguous: search_dir/dir<sub>1</sub>/dir<sub>2</sub>/dir.../dir<sub>i</sub>" on the standard error output.
 
 ## Running the program (on MacOS):
 
