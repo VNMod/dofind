@@ -17,7 +17,7 @@ This C program finds a file under a directory.
 
 1. Run the script on a Bash (or even zsh) shell as certain commands may not be compatible with other shells.
 2. The script takes in two command line arguments, the first argument for the root of the directory to search, and the second argument is the name of the file to be found.
-3. On a successful traversal, the location, file modes (permissions), file size and link count are printed for that file as follows:
+3. On a successful traversal, the location, file modes (permissions), file size and link count are printed for that file.
 
 ## Aspects and Limitations:
 
