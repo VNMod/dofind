@@ -40,5 +40,6 @@ clang dofind.c -o dofind
 $ ./dofind searchdir findfile
 ```
 
+where searchdir is the directory to be searched for and findfile is the file to be found.
 
 
