@@ -21,7 +21,7 @@ This C program finds a file under a directory.
 
 ## Aspects and Limitations:
 
-In ```$ ./dofind search_dir find_file ```, note the following:
+In ```$ ./dofind search_dir find_file```, note the following:
 
 - findfile can be a directory
 - The exact location of searchdir is to be outputed as *search_dir/dir<sub>1</sub>/dir<sub>2</sub>/../dir<sub>n</sub>/findfile*
