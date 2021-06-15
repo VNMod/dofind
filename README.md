@@ -19,10 +19,26 @@ This C program finds a file under a directory.
 2. The script takes in two command line arguments, the first argument for the root of the directory to search, and the second argument is the name of the file to be found.
 3. On a successful traversal, the location, file modes (permissions), file size and link count are printed for that file.
 
-## SYNTAX, Aspects and Limitations:
+## Aspects and Limitations:
 
-### EXAMPLE:
+## Running the program (on MacOS):
 
-In order to run the script.sh and generate an output file named output.html, you must enter the command as follows in that directory:
+- Install the command line-tools:
 
-$ dofind searchdir findfile
+```
+xcode-select --install
+```
+
+- Compile the dofind.c file by running clang like this in order to generate the dofind executable:
+
+```
+clang dofind.c -o dofind
+```
+
+- To run the executable generated for the dofind.c file, run the following:
+```
+$ ./dofind searchdir findfile
+```
+
+
+
