@@ -4,7 +4,7 @@
 
 ## Task:
 
-This C program finds a file under a directory.
+This C program finds a file/folder under any parent/upper-level directory.
 
 ## Criteria:
 
