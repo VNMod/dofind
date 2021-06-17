@@ -49,6 +49,6 @@ clang dofind.c -o dofind
 $ ./dofind search_dir find_file
 ```
 
-where search_dir is the directory to be searched for and find_file is the file to be found.
+where search_dir is the directory to be searched in and find_file is the file to be found.
 
 
